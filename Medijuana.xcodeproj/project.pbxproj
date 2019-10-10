@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61C6B78234ECDB700D4541C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C6B77234ECDB700D4541C /* AppDelegate.swift */; };
+		D61C6B7A234ECDB700D4541C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C6B79234ECDB700D4541C /* ViewController.swift */; };
+		D61C6B7D234ECDB700D4541C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61C6B7B234ECDB700D4541C /* Main.storyboard */; };
+		D61C6B7F234ECDBA00D4541C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61C6B7E234ECDBA00D4541C /* Assets.xcassets */; };
+		D61C6B82234ECDBA00D4541C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61C6B80234ECDBA00D4541C /* LaunchScreen.storyboard */; };
+		D61C6B8D234ECDBA00D4541C /* MedijuanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C6B8C234ECDBA00D4541C /* MedijuanaTests.swift */; };
+		D61C6B98234ECDBA00D4541C /* MedijuanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C6B97234ECDBA00D4541C /* MedijuanaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D61C6B89234ECDBA00D4541C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61C6B6C234ECDB700D4541C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61C6B73234ECDB700D4541C;
+			remoteInfo = Medijuana;
+		};
+		D61C6B94234ECDBA00D4541C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61C6B6C234ECDB700D4541C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61C6B73234ECDB700D4541C;
+			remoteInfo = Medijuana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D61C6B74234ECDB700D4541C /* Medijuana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medijuana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61C6B77234ECDB700D4541C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D61C6B79234ECDB700D4541C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D61C6B7C234ECDB700D4541C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D61C6B7E234ECDBA00D4541C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D61C6B81234ECDBA00D4541C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D61C6B83234ECDBA00D4541C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61C6B88234ECDBA00D4541C /* MedijuanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedijuanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61C6B8C234ECDBA00D4541C /* MedijuanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedijuanaTests.swift; sourceTree = "<group>"; };
+		D61C6B8E234ECDBA00D4541C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61C6B93234ECDBA00D4541C /* MedijuanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedijuanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61C6B97234ECDBA00D4541C /* MedijuanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedijuanaUITests.swift; sourceTree = "<group>"; };
+		D61C6B99234ECDBA00D4541C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D61C6B71234ECDB700D4541C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C6B85234ECDBA00D4541C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C6B90234ECDBA00D4541C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D61C6B6B234ECDB700D4541C = {
+			isa = PBXGroup;
+			children = (
+				D61C6B76234ECDB700D4541C /* Medijuana */,
+				D61C6B8B234ECDBA00D4541C /* MedijuanaTests */,
+				D61C6B96234ECDBA00D4541C /* MedijuanaUITests */,
+				D61C6B75234ECDB700D4541C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D61C6B75234ECDB700D4541C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D61C6B74234ECDB700D4541C /* Medijuana.app */,
+				D61C6B88234ECDBA00D4541C /* MedijuanaTests.xctest */,
+				D61C6B93234ECDBA00D4541C /* MedijuanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D61C6B76234ECDB700D4541C /* Medijuana */ = {
+			isa = PBXGroup;
+			children = (
+				D61C6B77234ECDB700D4541C /* AppDelegate.swift */,
+				D61C6B79234ECDB700D4541C /* ViewController.swift */,
+				D61C6B7B234ECDB700D4541C /* Main.storyboard */,
+				D61C6B7E234ECDBA00D4541C /* Assets.xcassets */,
+				D61C6B80234ECDBA00D4541C /* LaunchScreen.storyboard */,
+				D61C6B83234ECDBA00D4541C /* Info.plist */,
+			);
+			path = Medijuana;
+			sourceTree = "<group>";
+		};
+		D61C6B8B234ECDBA00D4541C /* MedijuanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D61C6B8C234ECDBA00D4541C /* MedijuanaTests.swift */,
+				D61C6B8E234ECDBA00D4541C /* Info.plist */,
+			);
+			path = MedijuanaTests;
+			sourceTree = "<group>";
+		};
+		D61C6B96234ECDBA00D4541C /* MedijuanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D61C6B97234ECDBA00D4541C /* MedijuanaUITests.swift */,
+				D61C6B99234ECDBA00D4541C /* Info.plist */,
+			);
+			path = MedijuanaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D61C6B73234ECDB700D4541C /* Medijuana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61C6B9C234ECDBA00D4541C /* Build configuration list for PBXNativeTarget "Medijuana" */;
+			buildPhases = (
+				D61C6B70234ECDB700D4541C /* Sources */,
+				D61C6B71234ECDB700D4541C /* Frameworks */,
+				D61C6B72234ECDB700D4541C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medijuana;
+			productName = Medijuana;
+			productReference = D61C6B74234ECDB700D4541C /* Medijuana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D61C6B87234ECDBA00D4541C /* MedijuanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61C6B9F234ECDBA00D4541C /* Build configuration list for PBXNativeTarget "MedijuanaTests" */;
+			buildPhases = (
+				D61C6B84234ECDBA00D4541C /* Sources */,
+				D61C6B85234ECDBA00D4541C /* Frameworks */,
+				D61C6B86234ECDBA00D4541C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61C6B8A234ECDBA00D4541C /* PBXTargetDependency */,
+			);
+			name = MedijuanaTests;
+			productName = MedijuanaTests;
+			productReference = D61C6B88234ECDBA00D4541C /* MedijuanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D61C6B92234ECDBA00D4541C /* MedijuanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61C6BA2234ECDBA00D4541C /* Build configuration list for PBXNativeTarget "MedijuanaUITests" */;
+			buildPhases = (
+				D61C6B8F234ECDBA00D4541C /* Sources */,
+				D61C6B90234ECDBA00D4541C /* Frameworks */,
+				D61C6B91234ECDBA00D4541C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61C6B95234ECDBA00D4541C /* PBXTargetDependency */,
+			);
+			name = MedijuanaUITests;
+			productName = MedijuanaUITests;
+			productReference = D61C6B93234ECDBA00D4541C /* MedijuanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D61C6B6C234ECDB700D4541C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Joanna Ingram";
+				TargetAttributes = {
+					D61C6B73234ECDB700D4541C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D61C6B87234ECDBA00D4541C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D61C6B73234ECDB700D4541C;
+					};
+					D61C6B92234ECDBA00D4541C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D61C6B73234ECDB700D4541C;
+					};
+				};
+			};
+			buildConfigurationList = D61C6B6F234ECDB700D4541C /* Build configuration list for PBXProject "Medijuana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D61C6B6B234ECDB700D4541C;
+			productRefGroup = D61C6B75234ECDB700D4541C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D61C6B73234ECDB700D4541C /* Medijuana */,
+				D61C6B87234ECDBA00D4541C /* MedijuanaTests */,
+				D61C6B92234ECDBA00D4541C /* MedijuanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D61C6B72234ECDB700D4541C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61C6B82234ECDBA00D4541C /* LaunchScreen.storyboard in Resources */,
+				D61C6B7F234ECDBA00D4541C /* Assets.xcassets in Resources */,
+				D61C6B7D234ECDB700D4541C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C6B86234ECDBA00D4541C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C6B91234ECDBA00D4541C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D61C6B70234ECDB700D4541C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61C6B7A234ECDB700D4541C /* ViewController.swift in Sources */,
+				D61C6B78234ECDB700D4541C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C6B84234ECDBA00D4541C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61C6B8D234ECDBA00D4541C /* MedijuanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61C6B8F234ECDBA00D4541C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61C6B98234ECDBA00D4541C /* MedijuanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D61C6B8A234ECDBA00D4541C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61C6B73234ECDB700D4541C /* Medijuana */;
+			targetProxy = D61C6B89234ECDBA00D4541C /* PBXContainerItemProxy */;
+		};
+		D61C6B95234ECDBA00D4541C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61C6B73234ECDB700D4541C /* Medijuana */;
+			targetProxy = D61C6B94234ECDBA00D4541C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D61C6B7B234ECDB700D4541C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D61C6B7C234ECDB700D4541C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D61C6B80234ECDBA00D4541C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D61C6B81234ECDBA00D4541C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D61C6B9A234ECDBA00D4541C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D61C6B9B234ECDBA00D4541C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D61C6B9D234ECDBA00D4541C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBM56RQRS3;
+				INFOPLIST_FILE = Medijuana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.rmit.s3387644.Medijuana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D61C6B9E234ECDBA00D4541C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBM56RQRS3;
+				INFOPLIST_FILE = Medijuana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.rmit.s3387644.Medijuana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D61C6BA0234ECDBA00D4541C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBM56RQRS3;
+				INFOPLIST_FILE = MedijuanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.rmit.s3387644.MedijuanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medijuana.app/Medijuana";
+			};
+			name = Debug;
+		};
+		D61C6BA1234ECDBA00D4541C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBM56RQRS3;
+				INFOPLIST_FILE = MedijuanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.rmit.s3387644.MedijuanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medijuana.app/Medijuana";
+			};
+			name = Release;
+		};
+		D61C6BA3234ECDBA00D4541C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBM56RQRS3;
+				INFOPLIST_FILE = MedijuanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.rmit.s3387644.MedijuanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medijuana;
+			};
+			name = Debug;
+		};
+		D61C6BA4234ECDBA00D4541C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBM56RQRS3;
+				INFOPLIST_FILE = MedijuanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.rmit.s3387644.MedijuanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medijuana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D61C6B6F234ECDB700D4541C /* Build configuration list for PBXProject "Medijuana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61C6B9A234ECDBA00D4541C /* Debug */,
+				D61C6B9B234ECDBA00D4541C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61C6B9C234ECDBA00D4541C /* Build configuration list for PBXNativeTarget "Medijuana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61C6B9D234ECDBA00D4541C /* Debug */,
+				D61C6B9E234ECDBA00D4541C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61C6B9F234ECDBA00D4541C /* Build configuration list for PBXNativeTarget "MedijuanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61C6BA0234ECDBA00D4541C /* Debug */,
+				D61C6BA1234ECDBA00D4541C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61C6BA2234ECDBA00D4541C /* Build configuration list for PBXNativeTarget "MedijuanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61C6BA3234ECDBA00D4541C /* Debug */,
+				D61C6BA4234ECDBA00D4541C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D61C6B6C234ECDB700D4541C /* Project object */;
+}
