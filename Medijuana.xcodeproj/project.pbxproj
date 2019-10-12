@@ -104,7 +104,6 @@
 				D61C6B77234ECDB700D4541C /* AppDelegate.swift */,
 				D61C6BA7234ECDE700D4541C /* Model */,
 				D61C6B7E234ECDBA00D4541C /* Assets.xcassets */,
-				D61C6B80234ECDBA00D4541C /* LaunchScreen.storyboard */,
 				D61C6B83234ECDBA00D4541C /* Info.plist */,
 			);
 			path = Medijuana;
@@ -131,6 +130,7 @@
 		D61C6BA5234ECDD000D4541C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D61C6B80234ECDBA00D4541C /* LaunchScreen.storyboard */,
 				D61C6B7B234ECDB700D4541C /* Main.storyboard */,
 			);
 			path = View;
