@@ -16,5 +16,7 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var WelcomeLabel: UILabel!
+    @IBOutlet weak var SearchLabel: UILabel!
 }
 
