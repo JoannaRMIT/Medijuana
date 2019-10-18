@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vD0-X3-UVd">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,26 +19,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search for your condition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaV-S3-D0w">
-                                <rect key="frame" x="16" y="164" width="343" height="21"/>
+                                <rect key="frame" x="16" y="208" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="pPo-C5-dQk">
-                                <rect key="frame" x="16" y="205" width="343" height="56"/>
+                                <rect key="frame" x="16" y="249" width="343" height="56"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXw-mb-R19">
-                                <rect key="frame" x="16" y="277" width="343" height="41"/>
+                                <rect key="frame" x="16" y="321" width="343" height="41"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Search"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qD5-m0-lKp">
-                                <rect key="frame" x="16" y="52" width="288" height="41"/>
+                                <rect key="frame" x="16" y="96" width="288" height="41"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Welcome!">
                                         <attributes>
@@ -68,10 +68,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1ON-8r-S5e"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.40000000000001" y="129.08545727136433"/>
+            <point key="canvasLocation" x="2016.8" y="129.08545727136433"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ugK-9w-rQR">
@@ -86,7 +87,139 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FcR-Ix-YFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1012" y="129"/>
+            <point key="canvasLocation" x="2890.4000000000001" y="128.18590704647679"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="USO-Ab-QFN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QGC-Dz-lqY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="search-tab" selectedImage="search-tab-active" id="eH7-e2-fU1">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="D3H-Ig-8Ih">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="iBX-gx-5u2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wkX-ee-CFn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1077.5999999999999" y="129.08545727136433"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="i8j-Ey-dVU">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vD0-X3-UVd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3KB-JS-T1K">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="QGC-Dz-lqY" kind="relationship" relationship="viewControllers" id="M9e-zw-98J"/>
+                        <segue destination="5Wh-wl-xrg" kind="relationship" relationship="viewControllers" id="YsP-Mz-kEc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WOs-uO-kOL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="129.08545727136433"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7jk-jl-dUp">
+            <objects>
+                <viewController id="hCf-HM-DrU" customClass="ViewController" customModule="Medijuana" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fMX-ZK-iE7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search for your condition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hc8-80-7M9">
+                                <rect key="frame" x="16" y="208" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="LWt-RR-XkV">
+                                <rect key="frame" x="16" y="249" width="343" height="56"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJG-fZ-OHo">
+                                <rect key="frame" x="16" y="321" width="343" height="41"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Search"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RvP-0e-wyz">
+                                <rect key="frame" x="16" y="96" width="288" height="41"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Favourites!">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="35"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hc8-80-7M9" firstAttribute="top" secondItem="RvP-0e-wyz" secondAttribute="bottom" constant="71" id="7A9-db-MHQ"/>
+                            <constraint firstItem="Hc8-80-7M9" firstAttribute="leading" secondItem="wB2-jb-JJD" secondAttribute="leading" constant="16" id="APc-1S-vqh"/>
+                            <constraint firstItem="wB2-jb-JJD" firstAttribute="trailing" secondItem="RvP-0e-wyz" secondAttribute="trailing" constant="71" id="F2h-39-iOF"/>
+                            <constraint firstItem="wB2-jb-JJD" firstAttribute="trailing" secondItem="LWt-RR-XkV" secondAttribute="trailing" constant="16" id="IIC-rA-y7Y"/>
+                            <constraint firstItem="RvP-0e-wyz" firstAttribute="leading" secondItem="wB2-jb-JJD" secondAttribute="leading" constant="16" id="NF8-xy-Mbk"/>
+                            <constraint firstItem="aJG-fZ-OHo" firstAttribute="leading" secondItem="wB2-jb-JJD" secondAttribute="leading" constant="16" id="jlc-wh-CjN"/>
+                            <constraint firstItem="wB2-jb-JJD" firstAttribute="trailing" secondItem="Hc8-80-7M9" secondAttribute="trailing" constant="16" id="nYh-E5-nVq"/>
+                            <constraint firstItem="RvP-0e-wyz" firstAttribute="top" secondItem="wB2-jb-JJD" secondAttribute="top" constant="32" id="otR-eT-K5a"/>
+                            <constraint firstItem="LWt-RR-XkV" firstAttribute="leading" secondItem="wB2-jb-JJD" secondAttribute="leading" constant="16" id="p9D-Z4-KJ9"/>
+                            <constraint firstItem="LWt-RR-XkV" firstAttribute="top" secondItem="Hc8-80-7M9" secondAttribute="bottom" constant="20" id="rXr-uq-hFH"/>
+                            <constraint firstItem="wB2-jb-JJD" firstAttribute="trailing" secondItem="aJG-fZ-OHo" secondAttribute="trailing" constant="16" id="tCI-sl-t5k"/>
+                            <constraint firstItem="aJG-fZ-OHo" firstAttribute="top" secondItem="LWt-RR-XkV" secondAttribute="bottom" constant="16" id="zVa-Aa-RHp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wB2-jb-JJD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9NF-AP-gi9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lW6-tV-CfZ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2017" y="888"/>
+        </scene>
+        <!--Favourites-->
+        <scene sceneID="bwV-Ho-ZML">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Wh-wl-xrg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favourites" image="favourites-tab" selectedImage="favourites-tab-active" id="02b-St-19V">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QD6-sk-hEB">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hCf-HM-DrU" kind="relationship" relationship="rootViewController" id="I7q-Ej-6P5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ole-oA-pKZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078" y="889"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="favourites-tab" width="31.5" height="28"/>
+        <image name="favourites-tab-active" width="32" height="28"/>
+        <image name="search-tab" width="28" height="28"/>
+        <image name="search-tab-active" width="28" height="28"/>
+    </resources>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
