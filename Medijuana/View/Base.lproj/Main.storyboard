@@ -182,9 +182,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Depression, Insomnia, Cramps, Pain, Stress, Headache" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="C8I-ik-io7">
-                                <rect key="frame" x="57" y="293" width="246.5" height="51"/>
+                                <rect key="frame" x="57" y="284" width="246.5" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
