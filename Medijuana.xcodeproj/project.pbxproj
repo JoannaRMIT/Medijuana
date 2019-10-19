@@ -19,6 +19,7 @@
 		D6EE4CF4235A9C82001D701B /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CF3235A9C82001D701B /* CustomTableViewController.swift */; };
 		D6EE4CF6235A9CEB001D701B /* FavouritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CF5235A9CEB001D701B /* FavouritesTableViewController.swift */; };
 		D6EE4CF8235AA357001D701B /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CF7235AA357001D701B /* SearchTableViewController.swift */; };
+		D6EE4CFA235AA4ED001D701B /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CF9235AA4ED001D701B /* NotesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		D6EE4CF3235A9C82001D701B /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		D6EE4CF5235A9CEB001D701B /* FavouritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewController.swift; sourceTree = "<group>"; };
 		D6EE4CF7235AA357001D701B /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		D6EE4CF9235AA4ED001D701B /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				D6EE4CF3235A9C82001D701B /* CustomTableViewController.swift */,
 				D6EE4CF5235A9CEB001D701B /* FavouritesTableViewController.swift */,
 				D6EE4CF7235AA357001D701B /* SearchTableViewController.swift */,
+				D6EE4CF9235AA4ED001D701B /* NotesTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				D61C6B7A234ECDB700D4541C /* ViewController.swift in Sources */,
 				D61C6B78234ECDB700D4541C /* AppDelegate.swift in Sources */,
 				D6EE4CF4235A9C82001D701B /* CustomTableViewController.swift in Sources */,
+				D6EE4CFA235AA4ED001D701B /* NotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

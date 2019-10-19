@@ -11,7 +11,7 @@ import UIKit
 
 // This class inherits from UITableViewController
 // Where is the protocol?
-class FavouritesTableViewController: UITableViewController {
+class NotesTableViewController: UITableViewController {
     
     
     override func viewDidLoad()
