@@ -18,6 +18,7 @@
 		D6EE4CF2235A937C001D701B /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CF1235A937C001D701B /* Favourites.swift */; };
 		D6EE4CF4235A9C82001D701B /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CF3235A9C82001D701B /* CustomTableViewController.swift */; };
 		D6EE4CF6235A9CEB001D701B /* FavouritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CF5235A9CEB001D701B /* FavouritesTableViewController.swift */; };
+		D6EE4CF8235AA357001D701B /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CF7235AA357001D701B /* SearchTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D6EE4CF1235A937C001D701B /* Favourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
 		D6EE4CF3235A9C82001D701B /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		D6EE4CF5235A9CEB001D701B /* FavouritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewController.swift; sourceTree = "<group>"; };
+		D6EE4CF7235AA357001D701B /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				D61C6B79234ECDB700D4541C /* ViewController.swift */,
 				D6EE4CF3235A9C82001D701B /* CustomTableViewController.swift */,
 				D6EE4CF5235A9CEB001D701B /* FavouritesTableViewController.swift */,
+				D6EE4CF7235AA357001D701B /* SearchTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6EE4CF2235A937C001D701B /* Favourites.swift in Sources */,
+				D6EE4CF8235AA357001D701B /* SearchTableViewController.swift in Sources */,
 				D6EE4CF6235A9CEB001D701B /* FavouritesTableViewController.swift in Sources */,
 				D61C6B7A234ECDB700D4541C /* ViewController.swift in Sources */,
 				D61C6B78234ECDB700D4541C /* AppDelegate.swift in Sources */,
