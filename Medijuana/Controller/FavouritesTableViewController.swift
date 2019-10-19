@@ -10,7 +10,7 @@ import UIKit
 
 // This class inherits from UITableViewController
 // Where is the protocol?
-class CustomTableViewController: UITableViewController {
+class FavouritesTableViewController: UITableViewController {
     
     
     override func viewDidLoad()
