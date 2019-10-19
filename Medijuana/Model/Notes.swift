@@ -1,8 +1,8 @@
 //
-//  Strains.swift
+//  Notes.swift
 //  Medijuana
 //
-//  Created by Joanna Ingram on 10/10/19.
+//  Created by Joanna Ingram on 19/10/19.
 //  Copyright © 2019 Joanna Ingram. All rights reserved.
 //
 
