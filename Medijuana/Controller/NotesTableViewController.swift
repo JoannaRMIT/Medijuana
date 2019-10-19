@@ -38,7 +38,7 @@ class NotesTableViewController: UITableViewController {
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 3
+        return 1
     }
     
     
@@ -46,12 +46,13 @@ class NotesTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
         
-        return "Section \(section + 1)"
+//        return "Section \(section + 1)"
+        return ""
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        return 10
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -73,8 +74,8 @@ class NotesTableViewController: UITableViewController {
         // Reference them in your code.
         let label = cell.viewWithTag(1000) as! UILabel
         let label1 = cell.viewWithTag(1001) as! UILabel
-        label.text = "Row: "
-        label1.text = String(indexPath.item + 1)
+        label.text = "20 Sep 2019 12:51PM"
+        label1.text = "This is a summary of what the note is about"
         
         return cell
     }
