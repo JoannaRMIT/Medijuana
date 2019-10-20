@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vD0-X3-UVd">
-    <device id="retina4_7" orientation="landscape">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vD0-X3-UVd">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,24 +15,24 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Medijuana" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search for your condition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaV-S3-D0w">
-                                <rect key="frame" x="16" y="177" width="635" height="20"/>
+                                <rect key="frame" x="16" y="209" width="343" height="20"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <searchBar contentMode="redraw" searchBarStyle="prominent" translatesAutoresizingMaskIntoConstraints="NO" id="pPo-C5-dQk">
-                                <rect key="frame" x="16" y="217" width="635" height="56"/>
+                                <rect key="frame" x="16" y="249" width="343" height="56"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXw-mb-R19">
-                                <rect key="frame" x="16" y="301" width="635" height="53"/>
+                                <rect key="frame" x="16" y="333" width="343" height="53"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="CuB-uI-D2k"/>
@@ -44,7 +45,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qD5-m0-lKp">
-                                <rect key="frame" x="16" y="64" width="580" height="42"/>
+                                <rect key="frame" x="16" y="96" width="288" height="42"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Welcome!">
                                         <attributes>
@@ -87,11 +88,11 @@
             <objects>
                 <viewController id="lUD-sQ-NBS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LES-OA-PHs">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weed-profile-pic" translatesAutoresizingMaskIntoConstraints="NO" id="uzg-AH-Q96">
-                                <rect key="frame" x="-48" y="8" width="375" height="137"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="137"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="uzg-AH-Q96" secondAttribute="height" multiplier="375:139" constant="5.3956834532373819" id="5Fa-Lq-PBs"/>
                                     <constraint firstAttribute="width" secondItem="uzg-AH-Q96" secondAttribute="height" multiplier="160:59" constant="3.4745762711864359" id="ktM-94-2Wq"/>
@@ -104,22 +105,22 @@
                                 </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Afpak" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kB2-Tb-sf8">
-                                <rect key="frame" x="10" y="165" width="89" height="41"/>
+                                <rect key="frame" x="16" y="197" width="182" height="38.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hybrid" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Qk-rF-u1j">
-                                <rect key="frame" x="10" y="214" width="48" height="16"/>
+                                <rect key="frame" x="16" y="240" width="48" height="19"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="taste-icon" translatesAutoresizingMaskIntoConstraints="NO" id="WVf-wS-jUQ">
-                                <rect key="frame" x="10" y="260" width="40" height="33"/>
+                                <rect key="frame" x="13" y="348" width="41" height="33"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Idt-Wh-pKD">
-                                <rect key="frame" x="345" y="58" width="50" height="32"/>
+                                <rect key="frame" x="3" y="408" width="51" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="7PZ-Ad-crc"/>
                                     <constraint firstAttribute="height" constant="32" id="u6D-D5-C0v"/>
@@ -137,19 +138,19 @@
                                 </variation>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thumbs-up-icon" translatesAutoresizingMaskIntoConstraints="NO" id="dYh-W9-0D0">
-                                <rect key="frame" x="372" y="108" width="22" height="23"/>
+                                <rect key="frame" x="31" y="457" width="23" height="23"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thumbs-down-icon" translatesAutoresizingMaskIntoConstraints="NO" id="0RV-NC-NiP">
-                                <rect key="frame" x="372" y="142" width="22" height="23"/>
+                                <rect key="frame" x="31" y="491" width="23" height="23"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medicinal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Pp-3L-v00">
-                                <rect key="frame" x="399" y="206" width="72" height="20"/>
+                                <rect key="frame" x="57" y="271" width="72" height="20"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Depression, Insomnia, Cramps, Pain, Stress, Headache" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="C8I-ik-io7">
-                                <rect key="frame" x="397" y="221" width="220" height="72"/>
+                                <rect key="frame" x="57" y="284" width="247" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="4eA-09-1Mr"/>
                                     <constraint firstAttribute="width" constant="220" id="K4p-DF-Oap"/>
@@ -172,13 +173,13 @@
                                 </variation>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flavours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1Q-F6-iej">
-                                <rect key="frame" x="57" y="345" width="64" height="20"/>
+                                <rect key="frame" x="57" y="349" width="64" height="20"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Earthy, chemically, pine" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rCA-r8-6Bh">
-                                <rect key="frame" x="54" y="260" width="273" height="35"/>
+                                <rect key="frame" x="57" y="364" width="256" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="273" id="KiH-vZ-jEr"/>
                                 </constraints>
@@ -196,7 +197,7 @@
                                 </variation>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Relaxed, uplifted, euphoric, tingly" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hXY-sx-jp5">
-                                <rect key="frame" x="398" y="99" width="546" height="32"/>
+                                <rect key="frame" x="57" y="448" width="254" height="32"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Tzd-5C-dsy"/>
@@ -218,7 +219,7 @@
                                 </variation>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Dizzy, dry mouth, paranoid" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3gH-IS-3nV">
-                                <rect key="frame" x="398" y="137" width="546" height="33"/>
+                                <rect key="frame" x="57" y="486" width="254" height="33"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="6Se-i7-wl6"/>
@@ -237,26 +238,26 @@
                                 </variation>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Effects" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0W-CN-lKI">
-                                <rect key="frame" x="399" y="64" width="52" height="20"/>
+                                <rect key="frame" x="57" y="414" width="52" height="20"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stethascope-icon" translatesAutoresizingMaskIntoConstraints="NO" id="T5y-tP-hLn">
-                                <rect key="frame" x="351" y="206" width="38" height="37"/>
+                                <rect key="frame" x="16" y="271" width="38" height="37"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notes-icon" translatesAutoresizingMaskIntoConstraints="NO" id="XlQ-5X-Wc7">
-                                <rect key="frame" x="284" y="166" width="27" height="39"/>
+                                <rect key="frame" x="315.5" y="204" width="27" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="Lu2-qT-1cq"/>
                                     <constraint firstAttribute="width" constant="27" id="nJI-er-GQ3"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favourites-select" translatesAutoresizingMaskIntoConstraints="NO" id="qj2-Q4-8ml">
-                                <rect key="frame" x="276" y="96" width="43" height="38"/>
+                                <rect key="frame" x="316" y="131" width="43" height="38"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Z0-XK-MoR">
-                                <rect key="frame" x="284" y="166" width="27" height="39"/>
+                                <rect key="frame" x="292" y="204" width="74" height="39"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                                 <state key="normal" image="notes-icon">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -266,7 +267,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYb-nL-tGD">
-                                <rect key="frame" x="-84" y="217" width="763" height="14"/>
+                                <rect key="frame" x="313" y="251" width="32" height="14"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -423,33 +424,28 @@
                                 <exclude reference="m60-LL-4uc"/>
                                 <exclude reference="wDy-Tl-Wrj"/>
                                 <exclude reference="rPe-lP-8Ed"/>
-                                <exclude reference="B5n-qD-toV"/>
-                                <exclude reference="oFp-qW-qdL"/>
-                                <exclude reference="Gax-Cn-Ey5"/>
-                                <exclude reference="yP6-DL-K7b"/>
-                                <exclude reference="UV8-qC-qTJ"/>
-                                <exclude reference="mbd-SP-EKJ"/>
-                                <exclude reference="p04-Tu-mlx"/>
-                                <exclude reference="w9n-gz-Ljn"/>
-                                <exclude reference="AI8-aK-ijd"/>
-                                <exclude reference="K3g-eI-z5y"/>
-                                <exclude reference="NtT-83-kbh"/>
-                                <exclude reference="eSa-5n-b6A"/>
-                                <exclude reference="UpP-bE-kYQ"/>
-                                <exclude reference="whI-DJ-nwt"/>
-                                <exclude reference="xts-WP-cFm"/>
-                                <exclude reference="fPZ-ra-yWm"/>
+                                <exclude reference="Pzd-pf-cWW"/>
                                 <exclude reference="0bK-46-0no"/>
                                 <exclude reference="1q1-Cy-OXk"/>
                                 <exclude reference="8qy-gB-Ghy"/>
                                 <exclude reference="c48-Nf-EIL"/>
                                 <exclude reference="db1-rs-GaQ"/>
-                                <exclude reference="Pzd-pf-cWW"/>
+                                <exclude reference="AI8-aK-ijd"/>
+                                <exclude reference="K3g-eI-z5y"/>
+                                <exclude reference="NtT-83-kbh"/>
+                                <exclude reference="eSa-5n-b6A"/>
+                                <exclude reference="fPZ-ra-yWm"/>
+                                <exclude reference="UpP-bE-kYQ"/>
+                                <exclude reference="whI-DJ-nwt"/>
+                                <exclude reference="xts-WP-cFm"/>
                                 <exclude reference="2GA-hV-iwj"/>
                                 <exclude reference="5aw-qO-5WQ"/>
                                 <exclude reference="G8r-0T-HJp"/>
                                 <exclude reference="HSq-hY-Xto"/>
+                                <exclude reference="TIV-VI-H3O"/>
                                 <exclude reference="dtU-9r-Gwj"/>
+                                <exclude reference="B5n-qD-toV"/>
+                                <exclude reference="oFp-qW-qdL"/>
                                 <exclude reference="MYh-OQ-LWx"/>
                                 <exclude reference="RBI-mb-rkJ"/>
                                 <exclude reference="bmf-U5-WKZ"/>
@@ -457,11 +453,16 @@
                                 <exclude reference="mmZ-T5-551"/>
                                 <exclude reference="tLD-R5-amE"/>
                                 <exclude reference="vB5-Te-etZ"/>
-                                <exclude reference="TIV-VI-H3O"/>
                                 <exclude reference="0R8-1h-WXc"/>
                                 <exclude reference="4k1-Qb-GZx"/>
                                 <exclude reference="5vt-Oq-pAH"/>
                                 <exclude reference="Zgj-BS-aFg"/>
+                                <exclude reference="Gax-Cn-Ey5"/>
+                                <exclude reference="yP6-DL-K7b"/>
+                                <exclude reference="UV8-qC-qTJ"/>
+                                <exclude reference="mbd-SP-EKJ"/>
+                                <exclude reference="p04-Tu-mlx"/>
+                                <exclude reference="w9n-gz-Ljn"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -494,11 +495,71 @@
                                 <include reference="wDy-Tl-Wrj"/>
                                 <exclude reference="4jO-DP-lWq"/>
                                 <include reference="rPe-lP-8Ed"/>
+                                <include reference="Pzd-pf-cWW"/>
+                                <exclude reference="gw8-ro-av2"/>
+                                <exclude reference="n9F-9L-Dm6"/>
+                                <exclude reference="tf7-EO-xtN"/>
+                                <exclude reference="5zv-21-cb6"/>
+                                <exclude reference="Qg4-v6-LSj"/>
+                                <include reference="0bK-46-0no"/>
+                                <include reference="1q1-Cy-OXk"/>
+                                <include reference="8qy-gB-Ghy"/>
+                                <exclude reference="N2n-TF-nAl"/>
+                                <include reference="c48-Nf-EIL"/>
+                                <include reference="db1-rs-GaQ"/>
+                                <include reference="AI8-aK-ijd"/>
+                                <exclude reference="EAN-fh-Vuw"/>
+                                <include reference="K3g-eI-z5y"/>
+                                <exclude reference="KOf-ys-ang"/>
+                                <include reference="NtT-83-kbh"/>
+                                <include reference="eSa-5n-b6A"/>
+                                <exclude reference="Rmk-ix-vMJ"/>
+                                <exclude reference="dQI-VM-Vve"/>
+                                <include reference="fPZ-ra-yWm"/>
+                                <include reference="UpP-bE-kYQ"/>
+                                <exclude reference="isj-Ls-BdY"/>
+                                <include reference="whI-DJ-nwt"/>
+                                <include reference="xts-WP-cFm"/>
+                                <exclude reference="zbR-Mk-LqB"/>
+                                <include reference="2GA-hV-iwj"/>
+                                <include reference="5aw-qO-5WQ"/>
+                                <exclude reference="DY2-Ro-KeC"/>
+                                <include reference="G8r-0T-HJp"/>
+                                <include reference="HSq-hY-Xto"/>
+                                <exclude reference="LIV-Ks-ESi"/>
+                                <exclude reference="eBq-GM-Egq"/>
+                                <exclude reference="led-QL-coc"/>
+                                <exclude reference="6b5-Z4-qPt"/>
+                                <exclude reference="KoY-bX-49C"/>
+                                <include reference="TIV-VI-H3O"/>
+                                <exclude reference="ckE-Xz-aKb"/>
+                                <exclude reference="1Nb-Bo-ja6"/>
+                                <exclude reference="cwl-DN-KVx"/>
+                                <exclude reference="n0e-ci-UYv"/>
+                                <exclude reference="4dG-3n-QKl"/>
+                                <exclude reference="7vR-AN-3Wa"/>
+                                <include reference="dtU-9r-Gwj"/>
+                                <exclude reference="xGr-KO-gQJ"/>
                                 <exclude reference="006-cu-L1y"/>
                                 <include reference="B5n-qD-toV"/>
                                 <exclude reference="bt1-D4-Cfl"/>
                                 <include reference="oFp-qW-qdL"/>
                                 <exclude reference="vjj-Oq-9RA"/>
+                                <exclude reference="1lz-y1-ZNZ"/>
+                                <exclude reference="Hgh-Ae-6FB"/>
+                                <include reference="MYh-OQ-LWx"/>
+                                <include reference="RBI-mb-rkJ"/>
+                                <include reference="bmf-U5-WKZ"/>
+                                <include reference="cae-It-dea"/>
+                                <include reference="mmZ-T5-551"/>
+                                <include reference="tLD-R5-amE"/>
+                                <include reference="vB5-Te-etZ"/>
+                                <exclude reference="xUs-Kf-DGx"/>
+                                <include reference="0R8-1h-WXc"/>
+                                <include reference="4k1-Qb-GZx"/>
+                                <include reference="5vt-Oq-pAH"/>
+                                <include reference="Zgj-BS-aFg"/>
+                                <exclude reference="cnc-kp-6lV"/>
                                 <exclude reference="1wQ-W4-GTs"/>
                                 <include reference="Gax-Cn-Ey5"/>
                                 <exclude reference="S3Z-PR-i5t"/>
@@ -512,66 +573,6 @@
                                 <include reference="mbd-SP-EKJ"/>
                                 <include reference="p04-Tu-mlx"/>
                                 <include reference="w9n-gz-Ljn"/>
-                                <include reference="AI8-aK-ijd"/>
-                                <exclude reference="EAN-fh-Vuw"/>
-                                <include reference="K3g-eI-z5y"/>
-                                <exclude reference="KOf-ys-ang"/>
-                                <include reference="NtT-83-kbh"/>
-                                <include reference="eSa-5n-b6A"/>
-                                <exclude reference="5zv-21-cb6"/>
-                                <exclude reference="Qg4-v6-LSj"/>
-                                <include reference="UpP-bE-kYQ"/>
-                                <exclude reference="isj-Ls-BdY"/>
-                                <include reference="whI-DJ-nwt"/>
-                                <include reference="xts-WP-cFm"/>
-                                <exclude reference="zbR-Mk-LqB"/>
-                                <exclude reference="Rmk-ix-vMJ"/>
-                                <exclude reference="dQI-VM-Vve"/>
-                                <include reference="fPZ-ra-yWm"/>
-                                <include reference="0bK-46-0no"/>
-                                <include reference="1q1-Cy-OXk"/>
-                                <include reference="8qy-gB-Ghy"/>
-                                <exclude reference="N2n-TF-nAl"/>
-                                <include reference="c48-Nf-EIL"/>
-                                <include reference="db1-rs-GaQ"/>
-                                <include reference="Pzd-pf-cWW"/>
-                                <exclude reference="gw8-ro-av2"/>
-                                <exclude reference="n9F-9L-Dm6"/>
-                                <exclude reference="tf7-EO-xtN"/>
-                                <include reference="2GA-hV-iwj"/>
-                                <include reference="5aw-qO-5WQ"/>
-                                <exclude reference="DY2-Ro-KeC"/>
-                                <include reference="G8r-0T-HJp"/>
-                                <include reference="HSq-hY-Xto"/>
-                                <exclude reference="LIV-Ks-ESi"/>
-                                <exclude reference="eBq-GM-Egq"/>
-                                <exclude reference="led-QL-coc"/>
-                                <exclude reference="4dG-3n-QKl"/>
-                                <exclude reference="7vR-AN-3Wa"/>
-                                <include reference="dtU-9r-Gwj"/>
-                                <exclude reference="xGr-KO-gQJ"/>
-                                <exclude reference="1lz-y1-ZNZ"/>
-                                <exclude reference="Hgh-Ae-6FB"/>
-                                <include reference="MYh-OQ-LWx"/>
-                                <include reference="RBI-mb-rkJ"/>
-                                <include reference="bmf-U5-WKZ"/>
-                                <include reference="cae-It-dea"/>
-                                <include reference="mmZ-T5-551"/>
-                                <include reference="tLD-R5-amE"/>
-                                <include reference="vB5-Te-etZ"/>
-                                <exclude reference="xUs-Kf-DGx"/>
-                                <exclude reference="6b5-Z4-qPt"/>
-                                <exclude reference="KoY-bX-49C"/>
-                                <include reference="TIV-VI-H3O"/>
-                                <exclude reference="ckE-Xz-aKb"/>
-                                <include reference="0R8-1h-WXc"/>
-                                <include reference="4k1-Qb-GZx"/>
-                                <include reference="5vt-Oq-pAH"/>
-                                <include reference="Zgj-BS-aFg"/>
-                                <exclude reference="cnc-kp-6lV"/>
-                                <exclude reference="1Nb-Bo-ja6"/>
-                                <exclude reference="cwl-DN-KVx"/>
-                                <exclude reference="n0e-ci-UYv"/>
                             </mask>
                         </variation>
                     </view>
@@ -585,11 +586,11 @@
             <objects>
                 <viewController id="w6h-3d-Uwh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DG8-89-yLZ">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD5-Lm-Gzq">
-                                <rect key="frame" x="16" y="64" width="99" height="42"/>
+                                <rect key="frame" x="16" y="96" width="99" height="42"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Notes">
                                         <attributes>
@@ -602,7 +603,7 @@
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBD-Kn-BsL">
-                                <rect key="frame" x="16" y="122" width="65" height="29"/>
+                                <rect key="frame" x="16" y="154" width="65" height="29"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Afpak">
                                         <attributes>
@@ -676,7 +677,7 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="D3H-Ig-8Ih">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -717,7 +718,7 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QD6-sk-hEB">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -734,26 +735,26 @@
             <objects>
                 <viewController id="JEs-Hb-C1C" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VTS-GK-VFq">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weed-profile-pic" translatesAutoresizingMaskIntoConstraints="NO" id="o6x-cI-IrL">
-                                <rect key="frame" x="0.0" y="32" width="667" height="247"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="139"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="o6x-cI-IrL" secondAttribute="height" multiplier="375:139" id="uYj-gp-O7H"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="favourites-select" translatesAutoresizingMaskIntoConstraints="NO" id="bdm-1o-lXc">
-                                <rect key="frame" x="608" y="131" width="43" height="38.5"/>
+                                <rect key="frame" x="316" y="131" width="43" height="38.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Afpak" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xZ-LC-V3J">
-                                <rect key="frame" x="16" y="293.5" width="89" height="39"/>
+                                <rect key="frame" x="16" y="217.5" width="89" height="39"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hybrid" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pb-Iv-BU0">
-                                <rect key="frame" x="16" y="336.5" width="48" height="19"/>
+                                <rect key="frame" x="16" y="260.5" width="48" height="19"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -864,11 +865,11 @@
             <objects>
                 <viewController id="SGL-dP-uFB" customClass="ViewController" customModule="Medijuana" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eV3-Ee-TUG">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HL0-zG-21m">
-                                <rect key="frame" x="16" y="32" width="580" height="42"/>
+                                <rect key="frame" x="16" y="52" width="288" height="42"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Notes">
                                         <attributes>
@@ -940,15 +941,15 @@
             <objects>
                 <tableViewController id="Ilc-Em-jVb" customClass="FavouritesTableViewController" customModule="Medijuana" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="66" sectionHeaderHeight="18" sectionFooterHeight="18" id="EvK-xb-yZc">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="66" id="Uxj-f1-Zob">
-                                <rect key="frame" x="0.0" y="55.5" width="667" height="66"/>
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="66"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" tableViewCell="Uxj-f1-Zob" id="L6E-oF-chu">
-                                    <rect key="frame" x="0.0" y="0.0" width="667" height="65.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="65.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="1001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aaa-P3-wRg">
@@ -967,7 +968,7 @@
                                             <rect key="frame" x="16" y="12" width="45" height="43"/>
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sys-ga-t23">
-                                            <rect key="frame" x="620" y="19" width="34" height="31"/>
+                                            <rect key="frame" x="328" y="19" width="34" height="31"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                             <state key="normal" title="View"/>
                                             <connections>
@@ -1006,15 +1007,15 @@
             <objects>
                 <tableViewController id="h3U-d9-kRZ" customClass="SearchTableViewController" customModule="Medijuana" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="66" sectionHeaderHeight="18" sectionFooterHeight="18" id="E6Q-mC-bXo">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="66" id="fzP-yi-Hy5">
-                                <rect key="frame" x="0.0" y="55.5" width="667" height="66"/>
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="66"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" tableViewCell="fzP-yi-Hy5" id="qsT-4r-Q6k">
-                                    <rect key="frame" x="0.0" y="0.0" width="667" height="65.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="65.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="1000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8X-gf-IAn">
@@ -1027,7 +1028,7 @@
                                             <rect key="frame" x="17" y="11" width="45" height="43"/>
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2k-zE-ymY">
-                                            <rect key="frame" x="624" y="20" width="34" height="31"/>
+                                            <rect key="frame" x="332" y="20" width="34" height="31"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                             <state key="normal" title="View"/>
                                             <connections>
@@ -1072,15 +1073,15 @@
             <objects>
                 <tableViewController id="7ih-Pf-GXA" customClass="NotesTableViewController" customModule="Medijuana" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="66" sectionHeaderHeight="18" sectionFooterHeight="18" id="XNt-Ru-Nzi">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="66" id="GrY-1K-Vvg">
-                                <rect key="frame" x="0.0" y="55.5" width="667" height="66"/>
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="66"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" tableViewCell="GrY-1K-Vvg" id="c4M-Ii-gZT">
-                                    <rect key="frame" x="0.0" y="0.0" width="667" height="65.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="65.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="1001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGI-6J-N7v">
@@ -1101,7 +1102,7 @@
                                             <rect key="frame" x="17" y="12" width="45" height="43"/>
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnf-wP-BOc">
-                                            <rect key="frame" x="617" y="20" width="34" height="31"/>
+                                            <rect key="frame" x="325" y="20" width="34" height="31"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                             <state key="normal" title="View"/>
                                             <connections>
@@ -1133,17 +1134,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="favourites-select" width="43" height="38"/>
-        <image name="favourites-tab" width="31" height="28"/>
+        <image name="favourites-select" width="43.5" height="38.5"/>
+        <image name="favourites-tab" width="31.5" height="28"/>
         <image name="favourites-tab-active" width="32" height="28"/>
         <image name="info-icon" width="50" height="33"/>
         <image name="notes-icon" width="27" height="40"/>
         <image name="search-tab" width="28" height="28"/>
         <image name="search-tab-active" width="28" height="28"/>
-        <image name="stethascope-icon" width="37" height="37"/>
-        <image name="taste-icon" width="40" height="33"/>
-        <image name="thumbs-down-icon" width="22" height="23"/>
-        <image name="thumbs-up-icon" width="22" height="23"/>
+        <image name="stethascope-icon" width="37.5" height="37.5"/>
+        <image name="taste-icon" width="40.5" height="33.5"/>
+        <image name="thumbs-down-icon" width="22.5" height="23"/>
+        <image name="thumbs-up-icon" width="22.5" height="23"/>
         <image name="weed-profile-pic" width="375" height="137"/>
         <image name="weed-thumbnail" width="55" height="55"/>
     </resources>

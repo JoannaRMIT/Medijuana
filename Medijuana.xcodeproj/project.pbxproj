@@ -22,6 +22,8 @@
 		D6EE4CFA235AA4ED001D701B /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CF9235AA4ED001D701B /* NotesTableViewController.swift */; };
 		D6EE4CFC235AB5C4001D701B /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CFB235AB5C4001D701B /* Notes.swift */; };
 		D6EE4CFE235AB619001D701B /* Strains.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EE4CFD235AB619001D701B /* Strains.swift */; };
+		D6F2A5C1235C0175008EFF5C /* strains-by-effects.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D6F2A5C0235C0175008EFF5C /* strains-by-effects.rtf */; };
+		D6F2A5C3235C0282008EFF5C /* effects-by-type.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D6F2A5C2235C0282008EFF5C /* effects-by-type.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		D6EE4CF9235AA4ED001D701B /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
 		D6EE4CFB235AB5C4001D701B /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 		D6EE4CFD235AB619001D701B /* Strains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strains.swift; sourceTree = "<group>"; };
+		D6F2A5C0235C0175008EFF5C /* strains-by-effects.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "strains-by-effects.rtf"; sourceTree = "<group>"; };
+		D6F2A5C2235C0282008EFF5C /* effects-by-type.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "effects-by-type.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,8 @@
 		D61C6BA7234ECDE700D4541C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D6F2A5C2235C0282008EFF5C /* effects-by-type.rtf */,
+				D6F2A5C0235C0175008EFF5C /* strains-by-effects.rtf */,
 				D6EE4CFD235AB619001D701B /* Strains.swift */,
 				D61C6BAC23506AA100D4541C /* Strains-sample.rtf */,
 				D6EE4CF1235A937C001D701B /* Favourites.swift */,
@@ -280,6 +286,8 @@
 				D61C6B82234ECDBA00D4541C /* LaunchScreen.storyboard in Resources */,
 				D61C6B7F234ECDBA00D4541C /* Assets.xcassets in Resources */,
 				D61C6B7D234ECDB700D4541C /* Main.storyboard in Resources */,
+				D6F2A5C1235C0175008EFF5C /* strains-by-effects.rtf in Resources */,
+				D6F2A5C3235C0282008EFF5C /* effects-by-type.rtf in Resources */,
 				D61C6BAD23506AA100D4541C /* Strains-sample.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
