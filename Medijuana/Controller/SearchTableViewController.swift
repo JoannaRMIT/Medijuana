@@ -78,4 +78,9 @@ class SearchTableViewController: UITableViewController {
         
         return cell
     }
+    
+    //take search input
+    //If input (a) matches effects by type "medical"
+            //then list strains by effects where effect = a
+            //else print "There are no strains that help that condition"
 }
